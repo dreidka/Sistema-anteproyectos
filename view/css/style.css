@@ -1,0 +1,20 @@
+body{
+  background-image: url("fondo.jpg");
+  background-size: cover; /* Escala la imagen para cubrir toda la pantalla */
+  background-attachment: fixed; /* Hace que la imagen de fondo se quede fija */
+  background-position: center; /* Centra la imagen */
+  margin: 0;
+  padding: 0;
+}
+
+#form-anteproyecto{
+    background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  display: block;
+}
+
